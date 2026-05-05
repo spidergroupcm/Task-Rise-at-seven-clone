@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import logo from "../Images/rize-seven.png";
+import awardImage from "../Images/award.png"
 
 const HeroSection = () => {
   // Array of your provided images
@@ -64,8 +65,7 @@ const HeroSection = () => {
           {/* Award Bar (Example placeholder) */}
           <div className="flex justify-center gap-6 my-4 opacity-80">
              {/* Add your award SVG icons here */}
-             <span className="text-xs uppercase tracking-widest">Global Search Awards</span>
-             <span className="text-xs uppercase tracking-widest">The Drum</span>
+             <img src={awardImage} alt="Award" className="h-20 w-auto object-contain" />
           </div>
 
           {/* Main Heading */}
