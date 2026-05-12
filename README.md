@@ -29,7 +29,7 @@ Follow these steps to run the project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/Task-Rise-at-seven-clone
+git clone https://github.com/task-rise-at-seven-clone
 
 # Navigate to project folder
 cd your-repo-name
