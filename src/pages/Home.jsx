@@ -4,6 +4,7 @@ import HeroSection from '../components/HeroSection';
 import OurPartner from '../components/OurPartners'
 import WhyWe from '../components/WhyWe'
 import FeaturedWork from '../components/FeaturedWork';
+import Ourservices from '../components/Ourservices';
  
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <OurPartner/>
             <WhyWe/>
             <FeaturedWork/>
+            <Ourservices/>
         </div>
     );
 };
