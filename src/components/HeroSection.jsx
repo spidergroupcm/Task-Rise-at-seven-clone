@@ -45,7 +45,7 @@ const HeroSection = () => {
           {/* Top bar */}
           <nav className="flex items-center justify-between w-full py-6 px-2">
             <div className="flex-1 flex justify-start">
-              <img src={logo} alt="Rise at Seven" className="h-8 w-auto object-contain" />
+              <img src={logo} alt="Rise at Seven" className="h-14 w-auto object-contain" />
             </div>
 
             <div className="flex-1 flex justify-center">
@@ -103,84 +103,3 @@ const HeroSection = () => {
 
 export default HeroSection;
 
-
-
-
-// import React from "react";
-// import { RxHamburgerMenu } from "react-icons/rx";
-// import logo from "../Images/rize-seven.png";
-
-// const HeroSection = () => {
-//   return (
-//     <div className="px-4 mt-6 w-full">
-//       <div className="relative rounded-3xl overflow-hidden bg-gradient-to-r from-[#0b1a4a] via-[#1e3a8a] to-gray-400 text-white">
-
-//         {/* Overlay blur effect */}
-//         <div className="absolute inset-0 backdrop-blur-sm bg-black/10"></div>
-
-//         {/* Content */}
-//         <div className="relative z-10 px-5 py-10">
-
-         
-
-//             {/* Top bar */}
-//             <nav className="flex items-center justify-between w-full py-6 px-2">
-
-//               {/* Left: Logo - Fixed width container to balance with the right side */}
-//               <div className="flex-1 flex justify-start">
-//                 <img src={logo} alt="Rise at Seven" className="h-8 w-auto object-contain" />
-//               </div>
-
-//               {/* Center: Hero Text - Absolute centering or flex-1 with text-center */}
-//               <div className="flex-1 flex justify-center">
-//                 <p className="text-center text-[20px] font-bold uppercase tracking-[0.2em] leading-tight text-white">
-//                   #1Most Recommended <br /> 
-//                   <span className="opacity-80">Content Marketing Agency</span>
-//                 </p>
-//               </div>
-
-//               {/* Right: Menu Icon - Fixed width container matching the left */}
-//               <div className="flex-1 flex justify-end">
-//                 <button className="text-white hover:opacity-70 transition-opacity focus:outline-none">
-//                   <RxHamburgerMenu className="text-3xl md:text-4xl" />
-//                 </button>
-//               </div>
-
-//             </nav>
-
-
-//           {/* Award Bar */}
-//           <div className="bg-red-500">
-//             <h1>Award</h1>
-//           </div>
-
-//           {/* Main Heading */}
-//           <div className="text-center bg-amber-400">
-//             <h2 className="text-4xl md:text-7xl font-bold leading-tight">
-//               We Create
-//             </h2>
-
-//             <h2 className="text-4xl md:text-7xl font-bold leading-tight flex items-center justify-center gap-3 flex-wrap">
-//               Category
-//               {/* Image inside text */}
-//               <img
-//                 src="https://i.ibb.co/3W3QZ5p/redbull.png"
-//                 alt="product"
-//                 className="w-10 md:w-16 h-auto rounded-lg"
-//               />
-//               Leaders
-//             </h2>
-//           </div>
-
-//           {/* Bottom text */}
-//           <p className=" bg-green-400 text-center mt-6 text-sm md:text-lg opacity-90">
-//             4 Global Offices serving <br />
-//             UK, USA, New York & more on every searchable platform
-//           </p>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default HeroSection;
